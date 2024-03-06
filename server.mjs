@@ -13,9 +13,9 @@ app.use(express.json());
 
 
 
-const sequelize = new Sequelize('blog_database', 'root', '', {
+const sequelize = new Sequelize('blog_database', 'sql6689201', 'UHU79Mfx1l', {
     dialect: 'mysql',
-    host: 'localhost'
+    host: 'sql6.freesqldatabase.com'
 });
 
 app.get('/api/categories', async (req, res) => {
